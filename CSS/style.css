@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&family=Teko:wght@700&display=swap');
 :root {
-    --headings: #3500D3;
+    --headings: #3c15e9;
     --text: #5AB9EA;
     --background: #0C0032;
     --headings-font-familiy: 'Teko', sans-serif;
@@ -13,30 +13,66 @@
 }
 body {
     background-color: var(--background);
-    text-align: center;
     font-family: var(--text-font-familiy);
     color: var(--text);
 }
+
+h1 {
+    text-align: center;
+}
+
 h2 {
+    text-align: center;
     color: var(--headings);
     font-family: var(--headings-font-familiy);
     font-size: 2.5rem;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 p {
     line-height: 2;
 }
 hr {
+    width: 60%;
     color: var(--text);
     margin: 3rem auto;
 }
 .Ingredients-Tbl {
-    width: 70%;
+    width: 50%;
+    height: 192px;
     margin: 0 auto;
 }
 
+.Ingredients-Ul {
+    padding: 3rem;
+}
+
 .Ingredients-Tbl img {
-    width: 400px;
+    width: 30%;
     float: left;
-    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-left: 12rem;
+}
+
+.Preperation hr {
+    width: 40%;
+}
+
+.Preperation {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.Hyperlink {
+    font-family: var(--headings-font-familiy);
+    text-align: center;
+    display: block;
+    color: var(--text);
+    font-size: 1.5rem;
+}
+
+footer {
+    font-family: var(--headings-font-familiy);
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
 }
