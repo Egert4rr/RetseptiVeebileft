@@ -76,3 +76,152 @@ footer {
     text-align: center;
     font-size: 1.5rem;
 }
+
+@media (min-width: 480px)
+{
+    h1 
+    {
+        padding-top: 1rem;
+        text-align: center;
+    }
+    .Ingredients-Tbl img 
+    {
+    width: 90%;
+    float: left;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    }
+    
+    hr 
+    {
+    width: 80%;
+    color: var(--text);
+    margin: 1rem auto;
+    margin-top: 2rem;
+    }
+    
+    .Ingredients-Ul 
+    {
+        font-size: 1.1rem;
+        text-align: none; 
+        padding-left: 1rem;
+    }
+    
+    .Ingredients-Tbl 
+    {
+        display: inline-block;
+        width: 70%;
+        height: 220px;
+        margin: 1rem auto;
+        margin-left: 15%; 
+    }
+    .Preperation hr {
+        width: 100%;
+    }
+
+    .Preperation {
+        font-size: 1.2rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px)
+{
+    h1 
+    {
+        padding-top: 1rem;
+        text-align: center;
+    }
+    .Ingredients-Tbl img 
+    {
+    width: 90%;
+    float: left;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    }
+    
+    hr 
+    {
+    width: 80%;
+    color: var(--text);
+    margin: 1rem auto;
+    margin-top: 2rem;
+    }
+    
+    .Ingredients-Ul 
+    {
+        font-size: 1.3rem;
+        margin-left: 25%;
+        padding: 0;
+    }
+    
+    .Ingredients-Tbl 
+    {
+        display: inline-block;
+        width: 70%;
+        height: 220px;
+        margin: 1rem auto;
+        margin-left: 15%; 
+    }
+    .Preperation hr {
+        width: 100%;
+    }
+
+    .Preperation {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    h1 
+    {
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    .Ingredients-Tbl img 
+    {
+    width: 90%;
+    float: left;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    }
+    
+    hr 
+    {
+    width: 80%;
+    color: var(--text);
+    margin: 1rem auto;
+    margin-top: 2rem;
+    }
+    
+    .Ingredients-Ul 
+    {
+        font-size: 1.3rem;
+        margin-left: 25%;
+        padding: 0;
+    }
+    
+    .Ingredients-Tbl 
+    {
+        display: inline-block;
+        width: 50%;
+        height: 220px;
+        margin: 1rem auto;
+        margin-left: 26%; 
+    }
+
+    .Preperation hr 
+    {
+        width: 100%;
+    }
+
+    .Preperation 
+    {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
